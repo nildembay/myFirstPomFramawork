@@ -37,6 +37,8 @@ public class AmazonPage {
     @FindBy(className = "sc-product-image")
     public WebElement sepettekiUrun;
 
+    @FindBy(xpath = "//div[@class='a-section a-spacing-small a-spacing-top-small']")
+    public WebElement sonucYazisi;
 
 
 
